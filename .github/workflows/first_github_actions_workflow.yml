@@ -36,7 +36,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-  List current directory contents:
+  list_current_contents_directory:
     runs-on: ubuntu-latest
 
       # Runs a command to list the contents of the current directory
