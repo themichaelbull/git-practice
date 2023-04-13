@@ -43,3 +43,7 @@ jobs:
       # Runs a command to list the contents of the current directory
       - name: List current directory contents
         run: ls -al
+
+      # Runs a command to list the contents of the current directory
+      - name: Run create file script and lists current directory.
+        run: ./script.sh
