@@ -1,4 +1,3 @@
-...
 # This is a basic workflow to help you get started with Actions
 
 name: CI
@@ -44,4 +43,3 @@ jobs:
       # Runs a command to list the contents of the current directory
       - name: List current directory contents
         run: ls -al
----
