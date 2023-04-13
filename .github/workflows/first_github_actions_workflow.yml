@@ -46,4 +46,6 @@ jobs:
 
       # Runs a command to list the contents of the current directory
       - name: Run create file script and lists current directory.
-        run: ./script.sh
+        run: |
+          chmod 755 script2.sh
+          ./script2.sh
