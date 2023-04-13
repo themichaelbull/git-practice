@@ -1,3 +1,4 @@
+...
 # This is a basic workflow to help you get started with Actions
 
 name: CI
@@ -34,3 +35,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+  List current directory contents:
+    runs-on: ubuntu-latest
+
+      # Runs a command to list the contents of the current directory
+      - name: List current directory contents
+        run: ls -al
+---
